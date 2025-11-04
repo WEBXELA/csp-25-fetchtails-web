@@ -94,8 +94,12 @@ const Footer: React.FC = () => {
                   <span>yash@fetchtails.com</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-300">
+                  <MapPin size={38} className="text-primary-400" />
+                  <span className='text-m' ><b>Head Office:</b> 41 H I G, PRANAM 39/4564, PANAMPILLY NAGAR, PANAMPILLY NAGAR S.O., ERNAKULAM, KERALA-682036.</span>
+                </div>
+                <div className="flex items-center space-x-3 text-gray-300">
                   <MapPin size={18} className="text-primary-400" />
-                  <span>Gurgaon, India</span>
+                  <span><b>Branch Office:</b> Gurgaon, India</span>
                 </div>
               </div>
             </motion.div>

@@ -72,7 +72,7 @@ const Contact: React.FC = () => {
     {
       icon: MapPin,
       title: 'Address',
-      value: 'Gurgaon, India',
+      value: 'Head Office: 41 H I G, PRANAM 39/4564, PANAMPILLY NAGAR, PANAMPILLY NAGAR S.O., ERNAKULAM, KERALA-682036.\n\nBranch Office: Gurgaon, India',
       description: 'Visit us during business hours'
     },
     {
@@ -272,7 +272,7 @@ const Contact: React.FC = () => {
                       <h3 className="text-lg font-semibold text-secondary-800 mb-1">
                         {info.title}
                       </h3>
-                      <p className="text-secondary-600 font-medium mb-1">
+                      <p className="text-secondary-600 font-medium mb-1 whitespace-pre-line">
                         {info.value}
                       </p>
                       <p className="text-sm text-secondary-500">
