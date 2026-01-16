@@ -14,6 +14,7 @@ import {
 
 const TermsOfService: React.FC = () => {
   const lastUpdated = "August 24, 2025";
+  const legalEntity = "YTP PRIVATE LIMITED";
 
   const sections = [
     {
@@ -360,6 +361,27 @@ const TermsOfService: React.FC = () => {
                 </p>
                 <p className="text-xs text-secondary-500">
                   For general questions
+                </p>
+              </motion.div>
+              
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.1 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                className="card p-6 text-center md:col-span-2"
+              >
+                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Shield size={24} className="text-white" />
+                </div>
+                <h3 className="text-lg font-semibold text-secondary-800 mb-2">
+                  Legal Entity Information
+                </h3>
+                <p className="text-secondary-600 text-sm mb-2">
+                  <span className="font-semibold">{legalEntity}</span>
+                </p>
+                <p className="text-xs text-secondary-500">
+                  Operating as FetchTails
                 </p>
               </motion.div>
             </div>

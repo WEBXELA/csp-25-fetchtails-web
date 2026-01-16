@@ -80,6 +80,12 @@ const Contact: React.FC = () => {
       title: 'Business Hours',
       value: 'Monday - Friday: 9AM - 6PM',
       description: 'Saturday: 10AM - 4PM'
+    },
+    {
+      icon: Mail,
+      title: 'Legal Entity',
+      value: 'YTP PRIVATE LIMITED',
+      description: 'Registered company name'
     }
   ];
 

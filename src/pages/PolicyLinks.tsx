@@ -55,7 +55,8 @@ const PolicyLinks: React.FC = () => {
     email: "support@fetchtails.com",
     phone: "+1-800-FETCHTAILS",
     address: "Gurgaon, India",
-    website: "https://www.fetchtails.com"
+    website: "https://www.fetchtails.com",
+    legalName: "YTP PRIVATE LIMITED"
   };
 
   return (
@@ -184,6 +185,13 @@ const PolicyLinks: React.FC = () => {
                   <div>
                     <div className="font-medium text-gray-900">Address</div>
                     <div className="text-gray-600">{contactInfo.address}</div>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-3 pt-3 border-t border-gray-200">
+                  <div className="w-5 h-5" />
+                  <div>
+                    <div className="font-medium text-gray-900">Legal Entity</div>
+                    <div className="text-gray-600">{contactInfo.legalName}</div>
                   </div>
                 </div>
               </div>

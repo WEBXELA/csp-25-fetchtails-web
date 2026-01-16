@@ -78,9 +78,12 @@ const Footer: React.FC = () => {
                 />
                 <span className="text-2xl font-bold">FetchTails</span>
               </div>
-              <p className="text-gray-300 mb-6 leading-relaxed">
+              <p className="text-gray-300 mb-2 leading-relaxed">
                 Connecting pet owners with the best pet care services including consultation, grooming, training, walking, daycare, and boarding. 
                 Your trusted partner in comprehensive pet care management.
+              </p>
+              <p className="text-gray-400 text-sm mb-6">
+                <span className="font-semibold">Legal Entity:</span> YTP PRIVATE LIMITED
               </p>
               
               {/* Contact Info */}
