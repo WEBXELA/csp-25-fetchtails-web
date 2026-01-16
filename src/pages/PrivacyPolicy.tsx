@@ -10,10 +10,7 @@ import {
   FileText,
   Calendar,
   CheckCircle,
-  Smartphone,
-  MapPin,
-  Camera,
-  Wifi
+  Smartphone
 } from 'lucide-react';
 
 const PrivacyPolicy: React.FC = () => {

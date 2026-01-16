@@ -3,10 +3,8 @@ import { motion } from 'framer-motion';
 import { 
   RotateCcw, 
   XCircle, 
-  Clock, 
   AlertTriangle,
   CheckCircle,
-  CreditCard,
   Phone,
   Mail,
   Calendar,

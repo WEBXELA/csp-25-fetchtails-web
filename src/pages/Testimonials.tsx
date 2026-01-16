@@ -7,13 +7,11 @@ import {
   Award,
   Calendar,
   MapPin,
-  Play,
   ChevronLeft,
   ChevronRight,
   Grid,
   List,
-  X,
-  Download
+  X
 } from 'lucide-react';
 
 const Testimonials: React.FC = () => {

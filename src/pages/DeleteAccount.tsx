@@ -7,12 +7,9 @@ import {
   FileText, 
   User, 
   Database,
-  Calendar,
-  MapPin,
   Camera,
   Smartphone,
   CheckCircle,
-  X,
   Mail
 } from 'lucide-react';
 
